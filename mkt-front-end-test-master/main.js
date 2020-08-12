@@ -59,8 +59,25 @@ document.addEventListener("DOMContentLoaded", function(){
   `
   // DRY code goes here
   var blogEntryButDRY = `` ;
-  // I believe what you want here is to create a loop that goes through the data and then displays each piece of blog data. I tried a few things but kept messing it up. I don’t usually need to touch this and would love to expand more That is why I am looking outward for a new job!
+  
  
+  //later found a resolution past due time
+//     var blogEntryButDRY = blogData.posts.map(function (o) {
+//        return `
+//      <a class="post-wrapper" href="${o.link}">
+//       <div class="image-wrapper">
+//      <img src="${o.image}" alt="">
+//    </div>
+//     <h4>${o.headline}</h4>
+//    <div class="button">Read Article</div>
+//    </a>
+//  `;
+//    });
+//
+//
+//    var blogFeed = document.getElementsByClassName("blog-posts")[0];
+//    //  blogFeed.innerHTML = blogEntry;
+//    blogFeed.innerHTML = blogEntryButDRY;
   
     
   var blogFeed = document.getElementsByClassName("blog-posts")[0];
